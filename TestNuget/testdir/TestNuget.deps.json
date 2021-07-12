@@ -1,0 +1,48 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestNuget/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.1.0"
+        },
+        "runtime": {
+          "TestNuget.dll": {}
+        }
+      },
+      "ClassLibrary1/1.1.0": {
+        "runtime": {
+          "lib/net5.0/ClassLibrary1.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-x86/native/AAAAAAA.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "14.16.27033.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestNuget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary1/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y2b1gPQPudlegWAiqm/LT6zQiotz3prVorDW/+/Chlk9elOqMGkFLFxa5UgznK6K7YqcTR7147fTuqfAQUJm3w==",
+      "path": "classlibrary1/1.1.0",
+      "hashPath": "classlibrary1.1.1.0.nupkg.sha512"
+    }
+  }
+}
